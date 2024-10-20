@@ -46,6 +46,20 @@ std::vector<cv::Mat> erode(const cv::Mat& src_erode, const cv::Mat& src_dilate) 
     cv::Mat dst_erode, dst_dilate;
 
     // TODO: 在这里实现你的代码
-
+    cv::Mat erode_threshold, erode_gray, dilate_threshold, dilate_gray;
+    cv::cvtColor(src_dilate, dilate_gray, cv::COLOR_BGR2GRAY, 0);
+    cv::cvtColor(src_erode, erode_gray, cv::COLOR_BGR2GRAY, 0);
+    cv::threshold(dilate_gray, dilate_threshold, 50, 255, cv::THRESH_BINARY);
+    cv::threshold(erode_gray, erode_threshold, 50, 255, cv::THRESH_BINARY);
+    cv::imshow("dilate_gray", dilate_gray);
+    cv::imshow("erode_gray", erode_gray);
+    cv::imshow("dilate_threshold", dilate_threshold);
+    cv::imshow("erode_threshold", erode_threshold);
+    cv::waitKey(0);
+    cv::destroyAllWindows();
+    cv::Size ksize(1, 1);
+    cv::Point anchor(-1, -1);
+    cv::erode(erode_threshold, dst_erode, cv::getStructuringElement(cv::MORPH_ERODE, ksize, anchor), anchor, 1, cv::BORDER_CONSTANT, cv::morphologyDefaultBorderValue());
+    cv::dilate(dilate_threshold, dst_dilate, cv::getStructuringElement(cv::MORPH_DILATE, ksize, anchor), anchor, 1, cv::BORDER_CONSTANT, cv::morphologyDefaultBorderValue());
     return {dst_erode, dst_dilate};
 }

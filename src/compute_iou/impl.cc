@@ -17,5 +17,13 @@ float compute_iou(const cv::Rect& a, const cv::Rect& b) {
      * 运行测试点，显示通过就行，不通过会告诉你哪一组矩形错了。
     */
     // IMPLEMENT YOUR CODE HERE
+        int left = std::max(a.x, b.x), top = std::max(a.y, b.y), right = std::min(a.x + a.width, b.x + b.width), bottom = std::min(a.y + a.height, b.y + b.height);
+    if (right < left || bottom < top)
+        return 0;
+    float s1 = (right - left) * (bottom - top);
+    // std::cout << left << " " << top << " " << right << " " << bottom << std::endl;
+    int s2 = a.width * a.height + b.width * b.height - s1;
+    // std::cout << s1 << " " << s2 << std::endl;
+    return float(s1) / s2;
     return 0.f;
 }

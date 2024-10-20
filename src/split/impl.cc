@@ -1,6 +1,7 @@
 #include "impls.h"
 
-std::vector<cv::Mat> split(const cv::Mat& rgb_image) {
+std::vector<cv::Mat> split(const cv::Mat &rgb_image)
+{
     /**
      * TODO: 将图像分割为 blue green red 三个通道，具体内容：
      *  1. 将彩色图片 rgb_image 转换为三个通道的 cv::Mat
@@ -18,6 +19,6 @@ std::vector<cv::Mat> split(const cv::Mat& rgb_image) {
     std::vector<cv::Mat> result;
 
     // TODO: 实现代码
-
+    cv::split(rgb_image, result);
     return result;
 }

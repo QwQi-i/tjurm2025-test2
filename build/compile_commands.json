@@ -1,0 +1,102 @@
+[
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/main.cc.o -c /home/qwqi/tjurm2025-test2/main.cc",
+  "file": "/home/qwqi/tjurm2025-test2/main.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/area_ratio/impl.cc.o -c /home/qwqi/tjurm2025-test2/src/area_ratio/impl.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/area_ratio/impl.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/area_ratio/test.cc.o -c /home/qwqi/tjurm2025-test2/src/area_ratio/test.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/area_ratio/test.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/compute_iou/impl.cc.o -c /home/qwqi/tjurm2025-test2/src/compute_iou/impl.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/compute_iou/impl.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/compute_iou/test.cc.o -c /home/qwqi/tjurm2025-test2/src/compute_iou/test.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/compute_iou/test.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/erode/impl.cc.o -c /home/qwqi/tjurm2025-test2/src/erode/impl.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/erode/impl.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/erode/test.cc.o -c /home/qwqi/tjurm2025-test2/src/erode/test.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/erode/test.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/find_contours/impl.cc.o -c /home/qwqi/tjurm2025-test2/src/find_contours/impl.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/find_contours/impl.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/find_contours/test.cc.o -c /home/qwqi/tjurm2025-test2/src/find_contours/test.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/find_contours/test.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/rect/impl.cc.o -c /home/qwqi/tjurm2025-test2/src/rect/impl.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/rect/impl.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/rect/test.cc.o -c /home/qwqi/tjurm2025-test2/src/rect/test.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/rect/test.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/resize/impl.cc.o -c /home/qwqi/tjurm2025-test2/src/resize/impl.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/resize/impl.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/resize/test.cc.o -c /home/qwqi/tjurm2025-test2/src/resize/test.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/resize/test.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/roi_color/impl.cc.o -c /home/qwqi/tjurm2025-test2/src/roi_color/impl.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/roi_color/impl.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/roi_color/test.cc.o -c /home/qwqi/tjurm2025-test2/src/roi_color/test.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/roi_color/test.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/split/impl.cc.o -c /home/qwqi/tjurm2025-test2/src/split/impl.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/split/impl.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/split/test.cc.o -c /home/qwqi/tjurm2025-test2/src/split/test.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/split/test.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/threshold/impl.cc.o -c /home/qwqi/tjurm2025-test2/src/threshold/impl.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/threshold/impl.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/threshold/test.cc.o -c /home/qwqi/tjurm2025-test2/src/threshold/test.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/threshold/test.cc"
+},
+{
+  "directory": "/home/qwqi/tjurm2025-test2/build",
+  "command": "/usr/bin/g++   -I/home/qwqi/tjurm2025-test2/include -isystem /usr/local/opencv4.5.4/include/opencv4   -w -O3 -g -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/tjurm_tutorial.dir/src/utils.cc.o -c /home/qwqi/tjurm2025-test2/src/utils.cc",
+  "file": "/home/qwqi/tjurm2025-test2/src/utils.cc"
+}
+]

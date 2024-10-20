@@ -1,8 +1,8 @@
 #include "impls.h"
 #include <unordered_map>
 
-
-std::unordered_map<int, cv::Rect> roi_color(const cv::Mat& input) {
+std::unordered_map<int, cv::Rect> roi_color(const cv::Mat &input)
+{
     /**
      * INPUT: 一张彩色图片, 路径: opencv/assets/roi_color/input.png
      * OUTPUT: 一个 unordered_map, key 为颜色(Blue: 0, Green: 1, Red: 2), value 为对应颜色的矩形区域(cv::Rect)
@@ -30,6 +30,26 @@ std::unordered_map<int, cv::Rect> roi_color(const cv::Mat& input) {
      */
     std::unordered_map<int, cv::Rect> res;
     // IMPLEMENT YOUR CODE HERE
-
+    cv::Mat threshold, bin;
+    cv::cvtColor(input, bin, cv::COLOR_BGR2GRAY);
+    cv::threshold(bin, threshold, 240, 255, cv::THRESH_BINARY_INV);
+    cv::Mat countour_img = input;
+    std::vector<cv::Vec4i> hierarhy;
+    std::vector<std::vector<cv::Point>> contours;
+    cv::findContours(threshold, contours, hierarhy, cv::RETR_CCOMP, cv::CHAIN_APPROX_SIMPLE, cv::Point(0, 0));
+    for (int i = 0; i < contours.size(); i++)
+        cv::drawContours(countour_img, contours, i, cv::Scalar(255, 0, 0), 1, 8, hierarhy, 0);
+    /*
+    cv::imshow("gray", bin);
+    cv::imshow("contours", countour_img);
+    cv::waitKey(0);
+    cv::destroyAllWindows();
+    */
+    for (int i = 0; i < 3; i++)
+    {
+        cv::Rect rect = cv::boundingRect(contours[i]);
+        auto roi = input(rect);
+        res[i] = rect;
+    }
     return res;
 }
